@@ -1,315 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Batwal's Lemon Tea Concentrate</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-    .insta-btn{
-    background:#E1306C;
-    }
-}
-
-body{
-    background:#fffdf7;
-    color:#222;
-}
-
-header{
-    background:#1e5631;
-    color:white;
-    padding:15px 8%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:bold;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-}
-
-.hero{
-    padding:70px 8%;
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:space-between;
-    background:linear-gradient(to right,#fffef5,#f7ffe7);
-}
-
-.hero-text{
-    flex:1;
-    min-width:300px;
-}
-
-.hero-text h1{
-    font-size:55px;
-    color:#1e5631;
-}
-
-.hero-text p{
-    font-size:20px;
-    margin:20px 0;
-}
-
-.btn{
-    display:inline-block;
-    padding:14px 28px;
-    background:#1e5631;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    margin-right:10px;
-}
-
-.hero-img{
-    flex:1;
-    text-align:center;
-}
-
-.hero-img img{
-    max-width:400px;
-    width:100%;
-}
-
-.section{
-    padding:70px 8%;
-}
-
-.section h2{
-    text-align:center;
-    color:#1e5631;
-    margin-bottom:40px;
-}
-
-.features{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.08);
-    text-align:center;
-}
-
-.steps{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.step{
-    background:#f9f9f9;
-    padding:20px;
-    border-radius:10px;
-    text-align:center;
-}
-
-.review{
-    background:#f5fff2;
-    padding:20px;
-    border-left:5px solid #1e5631;
-    margin-bottom:15px;
-}
-
-.cta{
-    background:#1e5631;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
-}
-
-.cta h2{
-    margin-bottom:15px;
-}
-
-footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-.whatsapp{
-    position:fixed;
-    right:20px;
-    bottom:20px;
-    background:#25D366;
-    color:white;
-    padding:15px 20px;
-    border-radius:50px;
-    text-decoration:none;
-    font-weight:bold;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batwal Food Products</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand-small">Batwal's <span>Lemon Tea</span></div>
+      <div class="topbar-right">Free shipping on orders above ₹499</div>
+    </div>
+  </header>
 
-<header>
-<div class="logo">Batwal's</div>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">Batwal's</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Benefits</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <a class="cart-btn" href="#">Cart</a>
+    </div>
+  </nav>
 
-<nav>
-<a href="#benefits">Benefits</a>
-<a href="#how">How To Use</a>
-<a href="#reviews">Reviews</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Refreshing & Wellness in Every Sip</p>
+          <h1>Batwal’s<br><span>Lemon Tea Syrup</span></h1>
+          <p class="hero-text">A delicious blend for tea lovers who want a quick, tasty and refreshing drink at home.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#">Shop Now</a>
+            <a class="btn btn-secondary" href="#">Learn More</a>
+          </div>
+          <div class="hero-points">
+            <div>100% Natural</div>
+            <div>No Artificial Color</div>
+            <div>Made in India</div>
+          </div>
+        </div>
 
-<section class="hero">
-<div class="hero-text">
-<h1>Batwal's Lemon Tea </h1>
+        <div class="hero-image-card">
+          <div class="badge">Natural Ingredients</div>
+          <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=900&q=80" alt="Lemon tea syrup bottle">
+        </div>
+      </div>
+    </section>
 
-<p>
-Taste The Care™ 🍋☕<br>
-Made with Honey + Jaggery<br>
-Rich in Vitamin C
-</p>
+    <section class="features">
+      <div class="container features-grid">
+        <div class="feature">100% Natural Ingredients</div>
+        <div class="feature">No Artificial Flavor or Color</div>
+        <div class="feature">Made in India</div>
+        <div class="feature">Trusted by 1000+ Families</div>
+      </div>
+    </section>
 
-<a href="https://wa.me/919140953923" class="btn">
-Order Now
-</a>
-<a href="https://instagram.com/batwal_lemon_tea" class="btn insta-btn">
-📷 Follow Instagram</a>
+    <section class="categories">
+      <div class="container">
+        <h2>Shop by Nature</h2>
+        <div class="category-grid">
+          <div class="category-card">Herbal Tea</div>
+          <div class="category-card">Herbal Powders</div>
+          <div class="category-card">Wellness Products</div>
+          <div class="category-card">Honey & Jaggery</div>
+          <div class="category-card">Gift Packs</div>
+        </div>
+      </div>
+    </section>
 
-<a href="#benefits" class="btn">
-Learn More
-</a>
-</div>
+    <section class="product-section">
+      <div class="container product-grid">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80" alt="Tea product">
+        </div>
+        <div class="product-info">
+          <p class="section-tag">Our Hero Product</p>
+          <h2>Batwal’s Lemon Tea Syrup</h2>
+          <p>Specially crafted to make your tea refreshing, flavorful and easy to prepare in seconds.</p>
+          <ul>
+            <li>Easy to use</li>
+            <li>Refreshing taste</li>
+            <li>Wellness-friendly</li>
+            <li>Perfect for daily use</li>
+          </ul>
+          <a class="btn btn-primary" href="#">Shop Now</a>
+        </div>
+        <div class="how-to-use">
+          <h3>How to Enjoy</h3>
+          <ol>
+            <li>Take 1 cup.</li>
+            <li>Add 1-2 spoon Batwal’s Lemon Tea Syrup.</li>
+            <li>Mix well and enjoy.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-<div class="hero-img">
-<img src="product.jpg" alt="Batwal Lemon Tea">
-</div>
-</section>
+    <section class="testimonials">
+      <div class="container">
+        <h2>Our Happy Customers</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial">“Amazing taste and very refreshing.”</div>
+          <div class="testimonial">“Natural ingredients, perfect for everyday use.”</div>
+          <div class="testimonial">“Loved the flavor and quality.”</div>
+        </div>
+      </div>
+    </section>
 
-<section id="benefits" class="section">
+    <section class="cta-strip">
+      <div class="container strip-inner">
+        <div>
+          <h2>Goodness of Nature, Care for You</h2>
+          <p>Strengthens immunity, detoxifies the body, improves digestion and keeps you energized.</p>
+        </div>
+        <a class="btn btn-secondary" href="#">Explore More</a>
+      </div>
+    </section>
 
-<h2>Why Choose Batwal's?</h2>
+    <section class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h3>Stay Updated</h3>
+          <p>Subscribe to get special offers and healthy tips.</p>
+        </div>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-<div class="features">
-
-<div class="card">
-<h3>🍋 Rich In Vitamin C</h3>
-<p>Natural lemon goodness in every cup.</p>
-</div>
-
-<div class="card">
-<h3>🍯 Honey + Jaggery</h3>
-<p>Traditional sweetness with natural ingredients.</p>
-</div>
-
-<div class="card">
-<h3>🛡 Immunity Support</h3>
-<p>Daily wellness and refreshing taste.</p>
-</div>
-
-<div class="card">
-<h3>🌿 Herbal Blend</h3>
-<p>Made with carefully selected ingredients.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="how" class="section">
-
-<h2>How To Make Lemon Tea</h2>
-
-<div class="steps">
-
-<div class="step">
-<h3>Step 1</h3>
-<p>Take 1 cup hot or cold water.</p>
-</div>
-
-<div class="step">
-<h3>Step 2</h3>
-<p>Add 1 tablespoon concentrate.</p>
-</div>
-
-<div class="step">
-<h3>Step 3</h3>
-<p>Mix well until dissolved.</p>
-</div>
-
-<div class="step">
-<h3>Step 4</h3>
-<p>Enjoy your refreshing Lemon Tea.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="reviews" class="section">
-
-<h2>Customer Reviews</h2>
-
-<div class="review">
-⭐⭐⭐⭐⭐ Amazing taste and very refreshing.
-</div>
-
-<div class="review">
-⭐⭐⭐⭐⭐ Perfect replacement for sugary drinks.
-</div>
-
-<div class="review">
-⭐⭐⭐⭐⭐ Loved by my whole family.
-</div>
-
-</section>
-
-<section class="cta">
-
-<h2>Ready To Experience Natural Refreshment?</h2>
-
-<p>Taste the Refreshment of Real Lemon in Every Sip</p>
-
-<br>
-
-<a href="https://wa.me/919140953923?text=Hi%20I%20want%20to%20order%20Batwal's%20Lemon%20Tea" class="btn">
-Order On WhatsApp
-</a>
-
-</section>
-
-<footer id="contact">
-
-<h3>Batwal's Lemon Tea Concentrate</h3>
-
-<p>
-📞 +91 91409 53923<br>
-📧 batwalslemontea@gmail.com
-</p>
-
-<br>
-
-<p>© 2026 Batwal's. All Rights Reserved.</p>
-
-</footer>
-
-<a class="whatsapp" href="https://wa.me/919140953923">
-WhatsApp
-</a>
-
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo footer-logo">Batwal's</div>
+        <p>Natural food and wellness products made with care.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Benefits</a>
+      </div>
+      <div>
+        <h4>Customer Service</h4>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+      <div>
+        <h4>Contact Us 9140953923</h4>
+        <p>Neemuch, Madhya Pradesh</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
